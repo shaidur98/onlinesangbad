@@ -388,7 +388,101 @@
 	</div>
 	<!----category-2--end---->
 	<!----youtube---->
-	
+		<!----youtube---->
+	<div class="container">
+		<div class="youtube">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="youtube-video">
+						<div class="video-title">ইউটিউব ভিডিও</div>
+						<iframe width="800" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+					</div>
+					<div class="youtube-list">
+						<div class='dvContent'>
+							<div class="media">
+								<a class="video-link" href="#">
+								<div class="media-left">
+									<img class="media-object" src="assets/img/default.jpg" alt="show">
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Happy New Year 2017, Wishes, video download,Whatsapp </h4>
+									<div class="time-text">01:51</div>
+								</div>
+								</a>
+							</div>
+							<div class="media">
+								<a class="video-link" href="#">
+								<div class="media-left">
+									<img class="media-object" src="assets/img/default2.jpg" alt="show">
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Happy New Year 2017, Wishes, video download,Whatsapp </h4>
+									<div class="time-text">01:51</div>
+								</div>
+								</a>
+							</div>
+							<div class="media">
+								<a class="video-link" href="#">
+								<div class="media-left">
+									<img class="media-object" src="assets/img/default.jpg" alt="show">
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Happy New Year 2017, Wishes, video download,Whatsapp </h4>
+									<div class="time-text">01:51</div>
+								</div>
+								</a>
+							</div>
+							<div class="media">
+								<a class="video-link" href="#">
+								<div class="media-left">
+									<img class="media-object" src="assets/img/default2.jpg" alt="show">
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Happy New Year 2017, Wishes, video download,Whatsapp </h4>
+									<div class="time-text">01:51</div>
+								</div>
+								</a>
+							</div>
+							<div class="media">
+								<a class="video-link" href="#">
+								<div class="media-left">
+									<img class="media-object" src="assets/img/default2.jpg" alt="show">
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Happy New Year 2017, Wishes, video download,Whatsapp </h4>
+									<div class="time-text">01:51</div>
+								</div>
+								</a>
+							</div>
+							<div class="media">
+								<a class="video-link" href="#">
+								<div class="media-left">
+									<img class="media-object" src="assets/img/default2.jpg" alt="show">
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Happy New Year 2017, Wishes, video download,Whatsapp </h4>
+									<div class="time-text">01:51</div>
+								</div>
+								</a>
+							</div>
+							<div class="media">
+								<a class="video-link" href="#">
+								<div class="media-left">
+									<img class="media-object" src="assets/img/default.jpg" alt="show">
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Happy New Year 2017, Wishes, video download,Whatsapp </h4>
+									<div class="time-text">01:51</div>
+								</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!----youtube---end--->
 	<!----youtube---end--->
 	<!-----add-section--2----->
 	<div class="add-2">

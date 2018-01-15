@@ -1,14 +1,3 @@
-	
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -17,10 +6,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
+
 				<ul class="megamenu">
 				<li class="active"><a href="#">প্রচ্ছদ</a>
 					<div class="megapanel">
 						<div class="row">
+
 							<div class="col1">
 								<img src="<?php echo base_url();?>assets/frontend/img/Putin-and-Erdogan-218x150.jpg" title="image" />
 								<p>রাশিয়া,ইরান ও তুরস্ক সহযোগিতা করায় সিরিয়ার জন্য ইতিবাচক ফল হয়েছে : পুতিন"</p>
@@ -45,6 +36,7 @@
 								<img src="<?php echo base_url();?>assets/frontend/img/Putin-and-Erdogan-218x150.jpg" title="image" />
 								<p>রাশিয়া,ইরান ও তুরস্ক সহযোগিতা করায় সিরিয়ার জন্য ইতিবাচক ফল হয়েছে : পুতিন"</p>
 							</div>
+						
 						</div>
 					</div>
 				</li>
@@ -91,23 +83,23 @@
 					</ul>
 				</li>
               
-      <li class="right"><a href="#" id="searchtoggl"><i class="fa fa-search fa-lg"></i></a></li>
 
+      <li class="right" id="topnav"><a href="#" id="searchtoggl"><i class="fa fa-search fa-lg"></i></a></li>
 
 				</ul>
 
 
-<div id="searchbar" class="clearfix">
-  <form id="searchform" class="navbar-form navbar-right" method="get" action="searchpage.php">
-    <button type="submit" id="searchsubmit" class="fa fa-search fa-4x"></button>
-    <input type="search" name="s" id="s" placeholder="Keywords..." autocomplete="off">
-    
-  </form>
-</div>
 
 
 
 
+    <div id="searchbar" class="clearfix">
+      <form id="searchform" method="get" action="searchpage.php">
+        <button type="submit" id="searchsubmit" class="fa fa-search fa-2x"></button>
+        <input type="search" name="s" id="s" placeholder="Keywords..." autocomplete="off">
+        
+      </form>
+    </div>
 
 
 				
@@ -119,35 +111,4 @@
 
 	<!----menu--end-->
 
-	<script>
-	// hhhh
-$(function(){
-  var $searchlink = $('#searchtoggl i');
-  var $searchbar  = $('#searchbar');
-  
-  $('#megamenu li a').on('click', function(e){
-    e.preventDefault();
-    
-    if($(this).attr('id') == 'searchtoggl') {
-      if(!$searchbar.is(":visible")) { 
-        // if invisible we switch the icon to appear collapsable
-        $searchlink.removeClass('fa-search').addClass('fa-search-minus');
-      } else {
-        // if visible we switch the icon to appear as a toggle
-        $searchlink.removeClass('fa-search-minus').addClass('fa-search');
-      }
-      
-      $searchbar.slideToggle(300, function(){
-        // callback after search bar animation
-      });
-    }
-  });
-
-
-  $('#searchform').submit(function(e){
-    e.preventDefault(); // stop form submission
-  });
-
-  
-
-</script>
+	
