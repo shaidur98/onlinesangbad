@@ -98,17 +98,19 @@
                                 </li>
                             </ul>
                         </li>
+
                         <li>
-                            <a href="#"><i class="fa fa-flag-o fa-fw"></i> Pages <span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-bookmark-o fa-fw"></i>Sub Sub-Category <span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="<?php echo site_url('admin/brands?a=add'); ?>">Add Page</a>
+                                    <a href="<?php echo site_url('admin/sub_category?a=create'); ?>">Create Sub Sub-Category</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo site_url('admin/brands'); ?>">Page List</a>
+                                    <a href="<?php echo site_url('admin/sub_category'); ?>">Sub Sub-Category List</a>
                                 </li>
                             </ul>
-                        </li>
+                        </li>                        
+
                         <li>
                             <a href="#"><i class="fa fa-shopping-cart fa-fw"></i> News<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
@@ -120,22 +122,61 @@
                                 </li>
                             </ul>
                         </li>
+
                         <li>
-                            <a href="#"><i class="fa fa fa-sliders fa-fw"></i> Slider<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-shopping-cart fa-fw"></i> News Panels<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="<?php echo site_url('admin/slider_images?a=add'); ?>">Add Slider Image</a>
+                                    <a href="<?php echo site_url('admin/products?a=add'); ?>">Add News Panel</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo site_url('admin/slider_images'); ?>">All Images</a>
+                                    <a href="<?php echo site_url('admin/products'); ?>">News Panel List</a>
+                                </li>
+                            </ul>
+                        </li>                        
+
+                        <li>
+                            <a href="#"><i class="fa fa-flag-o fa-fw"></i> Advirtisements <span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="<?php echo site_url('admin/brands?a=add'); ?>">Add Advertisement</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('admin/brands'); ?>">Advertisement List</a>
                                 </li>
                             </ul>
                         </li>
+
+
                         <li>
-                            <a href="#"><i class="fa fa-cog fa-fw"></i> Setup<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-shopping-cart fa-fw"></i> Management Team<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="<?php echo site_url('admin/system_setup'); ?>">System Setup</a>
+                                    <a href="<?php echo site_url('admin/products?a=add'); ?>">Add Member</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('admin/products'); ?>">Member List</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                         <li>
+                            <a href="#"><i class="fa fa-shopping-cart fa-fw"></i>Users<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="<?php echo site_url('admin/products?a=add'); ?>">Add User</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('admin/products'); ?>">User List</a>
+                                </li>
+                            </ul>
+                        </li>                         
+
+                        <li>
+                            <a href="#"><i class="fa fa-cog fa-fw"></i>Setup<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="<?php echo site_url('admin/system_setup'); ?>">Site Settings</a>
                                 </li>
                             </ul>
                         </li>
